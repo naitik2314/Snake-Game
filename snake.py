@@ -30,7 +30,7 @@ class Snake():
             self.segments[seg_num].goto(new_x, new_y)
             
     
-        self.segments[0].forward(MOVE_DISTANCE)
+        self.segments[0].forward(MOVE_DISTANCE) 
 
     def up(self):
         if self.head.heading() != DOWN:
