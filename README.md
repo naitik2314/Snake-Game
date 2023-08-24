@@ -20,5 +20,11 @@ The Snake Game is a simple yet addictive game where the player controls a snake 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/snake-game.git
-   cd snake-game
+   git clone https://github.com/naitik2314/Snake-Game.git
+   cd Snake-Game
+
+2. **Run the game**
+
+   ```bash
+   python3 main.py #For Linux/Mac
+   python main.py #For windows
