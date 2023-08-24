@@ -1,10 +1,19 @@
 from random import randint
+from snake import Snake
+from turtle import Turtle
 
-class Food():
+class Food(Turtle):
 
     def __init__(self):
-        pass
+        super().__init__()
+        self.shape("circle")
+        self.penup()
+        self.shapesize(stretch_len=0.5, stretch_wid=0.5)
+        self.color("blue")
+        self.speed("fastest")
+        self.refresh()
 
-    def position(self):
-        self.x_position_food = randint(-300, 300)
-        self.y_position_food = randint(-300, 300)
+    def refresh(self):
+        random_x = randint(-280, 280)
+        random_y = randint(-280, 280)
+        self.goto(random_x, random_y)
