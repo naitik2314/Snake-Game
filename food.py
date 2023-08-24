@@ -1,5 +1,4 @@
 from random import randint
-from snake import Snake
 from turtle import Turtle
 
 class Food(Turtle):
