@@ -55,6 +55,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 3. Make your changes and commit them: git commit -m 'Description of your changes'.
 4. Push to your forked repository: git push origin feature-name.
 5. Create a pull request to the main repository.
-6. 
+
 Please ensure your code follows PEP 8 style guidelines and include relevant tests if applicable.
 
